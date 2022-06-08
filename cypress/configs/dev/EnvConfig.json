@@ -1,0 +1,7 @@
+{
+  "baseUrl": "https://shorten-url-fe-staging.herokuapp.com",
+  "baseUrl_local_host": "http://127.0.0.1:9292",
+  "env": {
+    "platform": "dev"
+  }
+}
