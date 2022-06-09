@@ -4,7 +4,8 @@
   "description": "url-shortener-cypress",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "node_modules/cypress/bin/cypress open --env ENV=dev"
+    "cypress:open": "node_modules/cypress/bin/cypress open --env ENV=dev",
+    "cypress:open:headless": "node_modules/cypress/bin/cypress run --headless --browser chrome --env ENV=dev"
   },
   "license": "MIT",
   "cypress-cucumber-preprocessor": {
